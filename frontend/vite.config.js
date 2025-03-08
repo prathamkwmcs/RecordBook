@@ -12,8 +12,5 @@ export default defineConfig(({ mode }) => {
         "/api": env.VITE_API_URL || "http://localhost:8082", // Use loadEnv instead of import.meta.env
       },
     },
-    build: {
-      outDir: "frontend/dist", // Ensure this is set correctly
-    },
   };
 });
