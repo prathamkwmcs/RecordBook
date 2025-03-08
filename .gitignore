@@ -82,4 +82,3 @@ build/Release
 
 # Optional pre-commit hooks
 .husky/_/
-.vercel

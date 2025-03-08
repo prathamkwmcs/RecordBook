@@ -26,8 +26,5 @@
   ],
   "dependencies": {
     "concurrently": "^7.6.0"
-  },
-  "devDependencies": {
-    "rollup": "^4.35.0"
   }
 }
