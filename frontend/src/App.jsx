@@ -5,7 +5,6 @@ import Register from "./pages/Register";
 import Home from "./pages/Home";
 import { Navigate, Route, Routes } from "react-router-dom";
 import RefreshHandler from "./components/RefreshHandler";
-import { ToastContainer } from "react-toastify";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

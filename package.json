@@ -1,0 +1,30 @@
+{
+  "name": "recordbook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w frontend\" \"npm run dev -w backend\"",
+    "build": "npm run build -w frontend",
+    "start": "npm start -w backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathamkwmcs/RecordBook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathamkwmcs/RecordBook/issues"
+  },
+  "homepage": "https://github.com/prathamkwmcs/RecordBook#readme",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
